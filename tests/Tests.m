@@ -1,7 +1,5 @@
 #import <XCTest/XCTest.h>
 
-#import "CppInterface.h"
-
 @interface Tests : XCTestCase
 @end
 
@@ -16,8 +14,7 @@
 }
 
 - (void)testExample {
-    CppInterface* i = [[CppInterface alloc] init];
-    XCTAssert(i);
+    XCTAssertTrue(YES);
 }
 
 @end
