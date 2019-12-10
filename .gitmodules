@@ -1,0 +1,3 @@
+[submodule "tests/xcode-googletest"]
+	path = tests/xcode-googletest
+	url = https://github.com/Pix4D/xcode-googletest.git
