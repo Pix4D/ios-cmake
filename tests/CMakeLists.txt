@@ -45,5 +45,10 @@ set_target_properties(${TEST_NAME} PROPERTIES
     XCODE_ATTRIBUTE_FRAMEWORK_SEARCH_PATHS "\$(inherited) "
 )
 
+set_target_properties(${TEST_NAME} PROPERTIES
+    XCODE_ATTRIBUTE_GCC_INPUT_FILETYPE "sourcecode.cpp.objcpp"
+    XCODE_ATTRIBUTE_CLANG_ENABLE_OBJC_ARC "YES"
+)
+
 
 
